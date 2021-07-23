@@ -1,0 +1,137 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": false,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": true,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "shareAllInputDatasets": false
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "test",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 899197
+      },
+      {
+        "name": "test_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 34696
+      },
+      {
+        "name": "test_prepared_scored",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 106194
+      },
+      {
+        "name": "test_prepared_scored_final",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 8505
+      },
+      {
+        "name": "train",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 2201879
+      },
+      {
+        "name": "train_prepared_1",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 194973
+      },
+      {
+        "name": "train_prepared_2",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 60707
+      }
+    ],
+    "includedSavedModels": [
+      {
+        "id": "9MFa4sfl",
+        "name": "Prediction (KNN) on train_prepared_1",
+        "size": 9965177
+      },
+      {
+        "id": "uzdrcE94",
+        "name": "Prediction (RANDOM_FOREST_REGRESSION) on train_prepared_2",
+        "size": 814028
+      }
+    ],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "THEMATHCOMPANY",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "9.0.1",
+  "generatedWithDSSConfVersion": "9000",
+  "exportedWithPlugins": [
+    {
+      "pluginId": "geoadmin",
+      "version": "2.1.0"
+    },
+    {
+      "pluginId": "model-lightgbm",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "github",
+      "version": "0.0.5"
+    },
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "tableau-hyper-export",
+      "version": "0.1.4"
+    },
+    {
+      "pluginId": "sentiment-analysis",
+      "version": "1.5.0"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "model-fairness-report",
+      "version": "1.0.4"
+    }
+  ],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem"
+    }
+  },
+  "usedCodeEnvRefs": [],
+  "hasPartitionedDataset": false
+}

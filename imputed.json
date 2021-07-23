@@ -1,0 +1,28 @@
+{
+    "num_values": [
+        0.07827067669172932, 
+        2.0278195488721806, 
+        4.5562406015037595, 
+        2.473082706766917, 
+        9.833759398496241, 
+        1.4176691729323307, 
+        6.528045112781955, 
+        1.9096992481203008, 
+        0.3888721804511278, 
+        0.7478195488721805
+    ], 
+    "cat_values": [], 
+    "cat_columns": [], 
+    "num_columns": [
+        "Wheel", 
+        "Category", 
+        "Cylinders", 
+        "Engine volume", 
+        "Prod. year_formatted", 
+        "Gear box type", 
+        "Airbags", 
+        "Fuel type", 
+        "Drive wheels", 
+        "Leather interior"
+    ]
+}

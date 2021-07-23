@@ -1,0 +1,29 @@
+{
+  "description": "",
+  "name": "Random forest",
+  "starred": false,
+  "clusterMetas": {},
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.0,
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_prepared_2"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "train_prepared_2"
+    },
+    {
+      "key": "model:date",
+      "value": "2021-07-18 21:20:16"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "RANDOM_FOREST_REGRESSION"
+    }
+  ]
+}

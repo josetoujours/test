@@ -1,0 +1,138 @@
+{
+    "per_feature": {
+        "Wheel": {
+            "stats": {
+                "std": 0.2686071530305095, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.07827067669172932, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.07827067669172932
+        }, 
+        "Category": {
+            "stats": {
+                "std": 1.4146842177553618, 
+                "p99": 8.0, 
+                "min": 1.0, 
+                "max": 11.0, 
+                "average": 2.0278195488721806, 
+                "median": 2.0
+            }, 
+            "missing_impute_with_value": 2.0278195488721806
+        }, 
+        "Levy": {
+            "stats": {}
+        }, 
+        "Mileage": {
+            "stats": {}
+        }, 
+        "Cylinders": {
+            "stats": {
+                "std": 1.1619364872861542, 
+                "p99": 8.0, 
+                "min": 1.0, 
+                "max": 16.0, 
+                "average": 4.5562406015037595, 
+                "median": 4.0
+            }, 
+            "missing_impute_with_value": 4.5562406015037595
+        }, 
+        "Engine volume": {
+            "stats": {
+                "std": 0.9496443906449293, 
+                "p99": 5.0, 
+                "min": 0.0, 
+                "max": 7.0, 
+                "average": 2.473082706766917, 
+                "median": 2.0
+            }, 
+            "missing_impute_with_value": 2.473082706766917
+        }, 
+        "Prod. year_formatted": {
+            "stats": {
+                "std": 5.483409768810831, 
+                "p99": 26.0, 
+                "min": 1.0, 
+                "max": 82.0, 
+                "average": 9.833759398496241, 
+                "median": 9.0
+            }, 
+            "missing_impute_with_value": 9.833759398496241
+        }, 
+        "Price": {
+            "stats": {}
+        }, 
+        "Gear box type": {
+            "stats": {
+                "std": 0.8558327165087208, 
+                "p99": 4.0, 
+                "min": 1.0, 
+                "max": 4.0, 
+                "average": 1.4176691729323307, 
+                "median": 1.0
+            }, 
+            "missing_impute_with_value": 1.4176691729323307
+        }, 
+        "Airbags": {
+            "stats": {
+                "std": 4.304806463314027, 
+                "p99": 12.0, 
+                "min": 0.0, 
+                "max": 16.0, 
+                "average": 6.528045112781955, 
+                "median": 4.0
+            }, 
+            "missing_impute_with_value": 6.528045112781955
+        }, 
+        "Fuel type": {
+            "stats": {
+                "std": 1.184167200427231, 
+                "p99": 6.0, 
+                "min": 1.0, 
+                "max": 6.0, 
+                "average": 1.9096992481203008, 
+                "median": 1.0
+            }, 
+            "missing_impute_with_value": 1.9096992481203008
+        }, 
+        "Drive wheels": {
+            "stats": {
+                "std": 0.6518439999330347, 
+                "p99": 2.0, 
+                "min": 0.0, 
+                "max": 2.0, 
+                "average": 0.3888721804511278, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.3888721804511278
+        }, 
+        "Leather interior": {
+            "stats": {
+                "std": 0.4342806139142236, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.7478195488721805, 
+                "median": 1.0
+            }, 
+            "missing_impute_with_value": 0.7478195488721805
+        }
+    }, 
+    "feature_order": [
+        "Wheel", 
+        "Category", 
+        "Levy", 
+        "Mileage", 
+        "Cylinders", 
+        "Engine volume", 
+        "Prod. year_formatted", 
+        "Price", 
+        "Gear box type", 
+        "Airbags", 
+        "Fuel type", 
+        "Drive wheels", 
+        "Leather interior"
+    ]
+}

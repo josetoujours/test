@@ -1,0 +1,19 @@
+{
+  "trainedWithDSSVersion": "9.0.1",
+  "backend": "PY_MEMORY",
+  "isValid": true,
+  "type": "REGRESSION",
+  "algorithm_name": "FOREST_REGRESSOR",
+  "columns": [
+    "Airbags",
+    "Category",
+    "Cylinders",
+    "Drive wheels",
+    "Engine volume",
+    "Fuel type",
+    "Gear box type",
+    "Leather interior",
+    "Prod. year_formatted",
+    "Wheel"
+  ]
+}

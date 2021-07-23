@@ -1,0 +1,18 @@
+{
+  "columns": [
+    {"name":"Price","type":"tinyint"},
+    {"name":"Levy","type":"tinyint"},
+    {"name":"Prod. year_formatted","type":"tinyint"},
+    {"name":"Category","type":"tinyint"},
+    {"name":"Leather interior","type":"tinyint"},
+    {"name":"Fuel type","type":"tinyint"},
+    {"name":"Engine volume","type":"tinyint"},
+    {"name":"Mileage","type":"tinyint"},
+    {"name":"Cylinders","type":"float"},
+    {"name":"Gear box type","type":"tinyint"},
+    {"name":"Drive wheels","type":"tinyint"},
+    {"name":"Wheel","type":"tinyint"},
+    {"name":"Airbags","type":"tinyint"}
+  ],
+  "userModified": true
+}
